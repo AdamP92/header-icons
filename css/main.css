@@ -8,6 +8,7 @@ html {
 
 body {
   line-height: 1.5;
+  margin: 0;
 }
 
 h1 {
@@ -16,9 +17,14 @@ h1 {
   text-align: center;
   display: block;
   font-family: Merriweather;
-  padding: .5em 0 .5em 0;
+  padding: .5em 0;
   font-size: 2rem;
-  margin 0;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -55,4 +61,14 @@ a:hover {
 .cereal {
   border-left: 1px solid #a63f38;
   border-right: 1px solid #a63f38;
+}
+
+.left {
+  float: left;
+  width: 40px;
+}
+
+.right {
+  float: right;
+  width: 40px;
 }
